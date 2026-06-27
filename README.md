@@ -17,46 +17,39 @@ I built this project to explore combining high-end web design aesthetics with sc
 - Micro-Interactions: Clean hover states, subtle lifts on cards, and custom masonry galleries designed to feel tactile and expensive.
 - Fully Responsive: Tuned to look great and perform well across desktop, tablet, and mobile devices.
 
-## How to run this locally (From Scratch)
+## How to run this locally
 
-If you're new to web development or just want to run this on a fresh machine, follow these steps to get everything set up.
+If you're new to web development, follow these steps to get everything running using Visual Studio Code.
 
-### 1. Install the required software
-First, you'll need a few tools installed on your computer:
-- Visual Studio Code (VS Code): This is the code editor. You can download it from code.visualstudio.com.
-- Node.js: This is required to run the development environment. Download the "LTS" version from nodejs.org and install it.
-- Git: This is used to download the code from GitHub. Download it from git-scm.com.
+### 1. Install the basics
+If you haven't already, install these tools:
+- **VS Code**: Download from code.visualstudio.com
+- **Node.js**: Download the "LTS" version from nodejs.org
+- **Git**: Download from git-scm.com
 
-### 2. Download the project
-Open a terminal (or command prompt / PowerShell) on your computer and run:
+### 2. Open VS Code and the Terminal
+Open VS Code. Go to the top menu and click **Terminal > New Terminal** (or press `Ctrl + \``). 
+
+### 3. Clone and enter the project
+In the terminal that opens at the bottom of your screen, paste the following commands one by one:
 ```bash
 git clone https://github.com/ShivaPrasadRaju/gym-3d-animation-website.git
-```
-
-### 3. Open the project in VS Code
-Navigate into the project folder you just downloaded:
-```bash
 cd gym-3d-animation-website
-```
-Then, type this to open the folder in VS Code:
-```bash
-code .
 ```
 
 ### 4. Install dependencies
-Inside VS Code, open the built-in terminal (Go to Terminal > New Terminal at the top menu). 
-Run the following command to download all the necessary packages for the project:
+Now that you're inside the project folder, run this command to download all the necessary packages:
 ```bash
 npm install
 ```
 
-### 5. Start the development server
-Once the installation finishes, you can start the project by running:
+### 5. Start the website!
+Once the installation finishes, you can start the local development server by running:
 ```bash
 npm run dev
 ```
 
-VS Code will give you a local URL (usually http://localhost:5173). Hold `Ctrl` (or `Cmd` on Mac) and click that link to open the website in your browser.
+VS Code will display a local URL (usually `http://localhost:5173`). Simply hold `Ctrl` (or `Cmd` on Mac) and click that link to open the website in your browser.
 
 ## Build for Production
 
