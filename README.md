@@ -1,8 +1,10 @@
 # Ironclad Fitness - Premium 3D Landing Page
 
+website link - https://ironcladfitness.vercel.app/
+
 Welcome to the repository for Ironclad Fitness. 
 
-I built this project to explore combining high-end web design aesthetics with scroll-linked 3D animations, similar to what you might see on an Apple product page. The goal was to create an uncompromising, cinematic, and luxury experience for a fitness brand.
+I built this project to explore combining high-end web design aesthetics with scroll-linked 3D animations, similar to what you might see on an Apple product page. The goal was to create a premium experience for a fitness brand.
 
 ## Tech Stack
 
